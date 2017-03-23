@@ -52,7 +52,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     ENV.rootURL = '/capstone-project';
     ENV.locationType = 'hash';
-    ENV.apiHost = ''; // TODO: link to deployed API!
+    ENV.apiHost = 'https://agile-chamber-58318.herokuapp.com/';
   }
 
   return ENV;
